@@ -10,7 +10,7 @@ setup(
     packages=['projectc'],
 
     # # Needed for dependencies
-    # install_requires=['packageb'],
+    install_requires=['packageb'],
 
     # *strongly* suggested for sharing
     version='0.0.2',
