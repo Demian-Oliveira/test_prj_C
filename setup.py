@@ -12,10 +12,13 @@ setup(
     # # Needed for dependencies
     install_requires=['test_pkg_B'],
     dependency_links=[
-        # 'git+https://github.com/dmyanster/test_pkg_A.git@v{}#egg=PackageA.egg-info'.format('0.0.4'),
-        # 'git+https://github.com/dmyanster/test_pkg_B.git@v{}#egg=PackageB.egg-info'.format('0.0.1'),
-        'https://github.com/dmyanster/test_pkg_A.git@v{}#egg=PackageA.egg-info'.format('0.0.4'),
-        'https://github.com/dmyanster/test_pkg_B.git@v{}#egg=PackageB.egg-info'.format('0.0.1'),
+        # # 'git+https://github.com/dmyanster/test_pkg_A.git@v{}#egg=PackageA.egg-info'.format('0.0.4'),
+        # # 'git+https://github.com/dmyanster/test_pkg_B.git@v{}#egg=PackageB.egg-info'.format('0.0.1'),
+        # 'https://github.com/dmyanster/test_pkg_A.git@v{}#egg=PackageA.egg-info'.format('0.0.4'),
+        # 'https://github.com/dmyanster/test_pkg_B.git@v{}#egg=PackageB.egg-info'.format('0.0.1'),
+
+        'https://github.com/dmyanster/test_pkg_A/archive/v{}.zip#egg=PackageA.egg-info'.format('0.0.4'),
+        'https://github.com/dmyanster/test_pkg_B/archive/v{}.zip#egg=PackageB.egg-info'.format('0.0.1'),
     ],
 
     # *strongly* suggested for sharing
