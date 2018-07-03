@@ -14,8 +14,8 @@ setup(
     dependency_links=[
         # 'git+https://github.com/dmyanster/test_pkg_A.git@v{}#egg=PackageA.egg-info'.format('0.0.4'),
         # 'git+https://github.com/dmyanster/test_pkg_B.git@v{}#egg=PackageB.egg-info'.format('0.0.1'),
-        'git+https://github.com/dmyanster/test_pkg_A.git@v{}#egg=PackageA.egg-info'.format('0.0.4'),
-        'git+https://github.com/dmyanster/test_pkg_B.git@v{}#egg=PackageB.egg-info'.format('0.0.1'),
+        'git+https://github.com/dmyanster/test_pkg_A.git@v{}'.format('0.0.4'),
+        'git+https://github.com/dmyanster/test_pkg_B.git@v{}'.format('0.0.1'),
     ],
 
     # *strongly* suggested for sharing
