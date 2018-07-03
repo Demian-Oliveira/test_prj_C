@@ -10,7 +10,11 @@ setup(
     packages=['projectc'],
 
     # # Needed for dependencies
-    install_requires=['PackageB'],
+    install_requires=['test_pkg_B'],
+    dependency_links=[
+        'git+https://github.com/dmyanster/test_pkg_A.git@v$1#egg=PackageA.egg-info',
+        'git+https://github.com/dmyanster/test_pkg_B.git@v$1#egg=PackageB.egg-info',
+    ],
 
     # *strongly* suggested for sharing
     version='0.0.2',
