@@ -6,10 +6,6 @@ Header 1
 
 - create a virtual environment
     - python3 -m venv ~/PycharmProjects/envs/ProjectC
-    - source activate ProjectC
-
-- install the chosen tag version (thru the PyCharm Terminal)
-    - pip install -e git://github.com/dmyanster/test_pkg_A.git@v0.0.4#egg=PackageA.egg-info
 
 - test
     - cd bin
