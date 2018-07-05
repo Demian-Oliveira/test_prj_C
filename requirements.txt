@@ -1,4 +1,4 @@
-setuptools
+setuptools-28.8.0
 git+https://github.com/dmyanster/test_pkg_A.git@v0.0.4#egg=PackageA.egg-info
 git+https://github.com/dmyanster/test_pkg_B.git@v0.0.1#egg=PackageB.egg-info
-numpy
+numpy-1.13.1
