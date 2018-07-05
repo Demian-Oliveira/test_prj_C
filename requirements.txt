@@ -1,4 +1,4 @@
 setuptools=28.8.0
-git+git://github.com/dmyanster/test_pkg_A.git@v0.0.5#egg=PackageA.egg-info
-git+git://github.com/dmyanster/test_pkg_B.git@v0.0.1#egg=PackageB.egg-info
+git+ssh://github.com/dmyanster/test_pkg_A.git@v0.0.5#egg=PackageA.egg-info
+git+ssh://github.com/dmyanster/test_pkg_B.git@v0.0.1#egg=PackageB.egg-info
 numpy=1.13.1
