@@ -69,7 +69,8 @@ setup(
     # We will also need a readme eventually (there will be a warning)
     long_description=open('README.rst').read(),
     # # if there are any scripts
-    # /Users/demianoliveira/anaconda3/envs/design2.0-v0.2/bin
+    # ~/anaconda3/envs/design2.0-v0.2/bin
+    # ~/anaconda3/bin
     scripts=['scripts/hello.py'],
 )
 
