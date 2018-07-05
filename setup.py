@@ -69,7 +69,7 @@ setup(
     # We will also need a readme eventually (there will be a warning)
     long_description=open('README.rst').read(),
     # # if there are any scripts
-    # scripts=['scripts/hello.py'],
+    scripts=['scripts/ProjectC-run.py'],
 )
 
 # # Limpando tudo

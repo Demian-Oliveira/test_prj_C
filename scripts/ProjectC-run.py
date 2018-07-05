@@ -1,7 +1,3 @@
-#!/bin/sh
-source activate ~/PycharmProjects/envs/ProjectC
-PYTHONPATH=.. cd ../ && python tester.py
-
-#/usr/bin/env 
+#!/bin/env env-ProjectC
 
 print("hello world")
