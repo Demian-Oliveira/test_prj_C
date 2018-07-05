@@ -71,3 +71,21 @@ setup(
     # # if there are any scripts
     # scripts=['scripts/hello.py'],
 )
+
+# # Limpando tudo
+# # cd /Users/demianoliveira/anaconda3/lib/python3.6/site-packages
+#
+# cd ~/PycharmProjects/envs
+# source deactivate
+# rm -rf env-ProjectC
+#
+# # Creating enviroment and installing
+#
+# cd ~/PycharmProjects/envs
+# python -m venv env-ProjectC
+# source activate env-ProjectC
+# pip install git+https://github.com/dmyanster/test_prj_C --process-dependency-links
+#
+#
+# # Updating
+# pip install git+https://github.com/dmyanster/test_prj_C --process-dependency-links --upgrade
