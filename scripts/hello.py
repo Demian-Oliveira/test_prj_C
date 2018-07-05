@@ -1,3 +1,3 @@
-#/usr/bin/env python
+#/usr/bin/env env-ProjectC
 
-print "hello world"
+print("hello world")
