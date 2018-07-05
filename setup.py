@@ -35,6 +35,8 @@ def install_deps():
 
 pkgs, new_links = install_deps()
 
+# pip install -vvv git+https://github.com/dmyanster/test_prj_C --process-dependency-links
+
 setup(
     # Needed to silence warnings
     name='ProjectC',
