@@ -44,7 +44,7 @@ setup(
     author='Dmyan',
     author_email='dmyan@qwerty.com',
     # Needed to actually package something
-    packages=['projectc', 'projectc.utilities'],
+    packages=['projectc'],
 
     install_requires=pkgs,
     dependency_links=new_links,
@@ -71,7 +71,7 @@ setup(
     # # if there are any scripts
     # ~/anaconda3/envs/design2.0-v0.2/bin
     # ~/anaconda3/bin
-    scripts=['bin/run'],
+    scripts=['bin/start', 'scripts/start.py'],
 )
 
 # # Limpando tudo
