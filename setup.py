@@ -71,7 +71,7 @@ setup(
     # # if there are any scripts
     # ~/anaconda3/envs/design2.0-v0.2/bin
     # ~/anaconda3/bin
-    scripts=['scripts/hello.py'],
+    scripts=['scripts/run.py'],
 )
 
 # # Limpando tudo
