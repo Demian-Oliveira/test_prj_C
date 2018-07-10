@@ -1,0 +1,3 @@
+#!/bin/sh
+source activate ~/PycharmProjects/envs/env-ProjectC
+PYTHONPATH=.. cd ../ && python start.py
