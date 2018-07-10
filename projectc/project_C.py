@@ -8,5 +8,8 @@ class ProjectC(PackageB):
 
     def print_version(self):
         super().print_version()
-        version = pkg_resources.require("projectc")[0].version
-        print('Project_C: {}'.format(version))
+        try:
+            version = pkg_resources.require("projectc")[0].version
+            print('Project_C: {}'.format(version))
+        except:
+            print('=== Project_C ===')
