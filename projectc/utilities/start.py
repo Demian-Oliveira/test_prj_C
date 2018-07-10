@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from projectc.project_C import ProjectC
 
 if __name__ == '__main__':
