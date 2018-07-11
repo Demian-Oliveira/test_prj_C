@@ -34,3 +34,5 @@ pip install git+https://github.com/dmyanster/test_prj_C --process-dependency-lin
 # Running
 
 ./env-ProjectC/bin/start
+./env-ProjectC/bin/set-PackageA-version 0.0.5
+./env-ProjectC/bin/set-PackageB-version 0.0.3
