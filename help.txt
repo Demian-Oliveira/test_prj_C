@@ -3,6 +3,7 @@
 
 cd ~/PycharmProjects/envs
 source deactivate
+deactivate
 rm -rf env-ProjectC
 
 ################################################################
@@ -10,23 +11,23 @@ rm -rf env-ProjectC
 
 cd ~/PycharmProjects/envs
 python -m venv --without-pip env-ProjectC
-source activate env-ProjectC
+source ~/PycharmProjects/envs/env-ProjectC/bin/activate
 curl https://bootstrap.pypa.io/get-pip.py | python
-source deactivate
-source activate env-ProjectC
+deactivate
+source ~/PycharmProjects/envs/env-ProjectC/bin/activate
 
 ################################################################
 # Installing
 
 cd ~/PycharmProjects/envs
-source activate env-ProjectC
+source ~/PycharmProjects/envs/env-ProjectC/bin/activate
 pip install git+https://github.com/dmyanster/test_prj_C --process-dependency-links
 
 ################################################################
 # Updating
 
 cd ~/PycharmProjects/envs
-source activate env-ProjectC
+source ~/PycharmProjects/envs/env-ProjectC/bin/activate
 pip install git+https://github.com/dmyanster/test_prj_C --process-dependency-links --upgrade
 
 
