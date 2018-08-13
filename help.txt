@@ -1,39 +1,55 @@
+# [Removing and reinstalling ProjectC]
+
 ################################################################
-# Limpando tudo
+# Creating base folders
+
+mkdir ~/PycharmProjects
+mkdir ~/PycharmProjects/envs
+
+################################################################
+# Removing ProjectC enviroment
 
 cd ~/PycharmProjects/envs
 source deactivate
-deactivate
 rm -rf env-ProjectC
 
 ################################################################
-# Creating enviroment
+# Creating ProjectC enviroment
 
 cd ~/PycharmProjects/envs
 python -m venv --without-pip env-ProjectC
-source ~/PycharmProjects/envs/env-ProjectC/bin/activate
+source activate env-ProjectC
 curl https://bootstrap.pypa.io/get-pip.py | python
-deactivate
-source ~/PycharmProjects/envs/env-ProjectC/bin/activate
+source deactivate
 
 ################################################################
-# Installing
+# Installing ProjectC
 
 cd ~/PycharmProjects/envs
-source ~/PycharmProjects/envs/env-ProjectC/bin/activate
+source activate env-ProjectC
 pip install git+https://github.com/dmyanster/test_prj_C --process-dependency-links
+source deactivate
 
 ################################################################
-# Updating
-
-cd ~/PycharmProjects/envs
-source ~/PycharmProjects/envs/env-ProjectC/bin/activate
-pip install git+https://github.com/dmyanster/test_prj_C --process-dependency-links --upgrade
-
-
-################################################################
-# Running
+# Running before update
 
 ./env-ProjectC/bin/start
-./env-ProjectC/bin/set-PackageA-version 0.0.5
-./env-ProjectC/bin/set-PackageB-version 0.0.3
+
+################################################################
+# Updating version
+
+# ./env-ProjectC/bin/set-PackageA-version 0.0.5
+./env-ProjectC/bin/set-PackageB-version 0.0.2
+
+################################################################
+# Running after update
+
+./env-ProjectC/bin/start
+
+################################################################
+# Updating ProjectC
+
+cd ~/PycharmProjects/envs
+source activate env-ProjectC
+pip install git+https://github.com/dmyanster/test_prj_C --process-dependency-links --upgrade
+source deactivate
