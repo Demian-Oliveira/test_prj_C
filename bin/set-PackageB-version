@@ -8,4 +8,4 @@ elif [ $# -gt 1 ]; then
 fi
 
 source activate env-ProjectC
-pip install -e git://github.com/dmyanster/test_pkg_B.git@v$1#egg=PackageB.egg-info
+pip install -e git://github.com/dmyanster/test_pkg_B.git@v$1#egg=PackageB
