@@ -72,6 +72,7 @@ setup(
     # ~/anaconda3/envs/design2.0-v0.2/bin
     # ~/anaconda3/bin
     scripts=['bin/start', 'scripts/start.py',
+             'bin/update',
              'bin/set-PackageA-version',
              'bin/set-PackageB-version'
              ],
